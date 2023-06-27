@@ -1,0 +1,121 @@
+*{box-sizing: border-box;}
+body{
+    font-family: 'Cute Font', cursive;
+    font-size:36px;
+}
+.container{
+    width:800px;
+    max-width:100%;
+    border:1px solid #333;
+    border-radius:10px;
+    padding:50px;
+    margin:30px auto;
+    position:relative;
+    padding-bottom:83px;
+}
+.text-center{
+    text-align:center;
+}
+h1{
+    font-size:1.5em;
+}
+#result{
+    font-size:0.9em;
+}
+.result-img{
+    height:200px;
+    display:flex;
+    justify-content: center;
+}
+.me{
+    float:left;
+    width:100px;
+    height:200px;
+    margin-left:20px;
+}
+.com{
+    float:right;
+    width:100px;
+    height:200px;
+    margin-right:20px;
+}
+.me p, .com p{
+    margin:0;
+}
+.me div, .com div{
+    background-size:contain;
+    background-repeat:no-repeat;
+    height:150px;
+}
+.btn-box{
+    margin-top:50px;
+    margin-bottom:50px;
+    display:flex;
+    justify-content: center;
+}
+button.srp{
+    padding:8px 10px;
+    font-size:30px;
+    font-family: 'Cute Font', cursive;
+    margin:10px;
+    cursor:pointer;
+}
+button.srp:hover{
+    box-shadow:0 0 10px 0 rgba(0,0,0,.25);
+}
+.s{
+    background-color:rgb(253,215,215);
+}
+.r{
+    background-color:rgb(198,206,243);
+}
+.p{
+    background-color:rgb(196,250,217);
+}
+
+.winrate{
+    border:1px solid #333;
+    border-radius:10px;
+    text-align:center;
+    padding:15px;
+}
+.winrate p{
+    font-size:25px;
+    margin-block-start:0;
+}
+table{
+    width:100%;
+}
+table th{
+    font-weight:300;
+    font-size:28px;
+    width:33.333334%;
+}
+table th::after{
+    content:"";
+    display:block;
+    width:90%;
+    border-bottom:1px dashed #999;
+    margin-left:5%;
+    margin-right:5%;
+}
+table td{
+    font-size:0.8em;
+}
+#reload{
+    width:120px;
+    background:rgb(255, 255, 165);
+    padding:4px 15px;
+    border:2px solid #333;
+    border-radius:20px;
+    cursor:pointer;
+    position:absolute;
+    bottom:20px;
+    left:calc(50% - 50px);
+    font-family: 'Cute Font', cursive;
+    font-size:0.7em;
+    display:none;
+}
+#reload:hover{
+    box-shadow:0 0 10px 0 rgba(0,0,0,.25);
+}
